@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/ask.css">
+    <link rel="stylesheet" href="./styles/bg-blue.css">
+    <link rel="stylesheet" href="/styles/bg-purple.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/servicesrest.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/pageservice.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap" rel="stylesheet">    <title>Home</title>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap" rel="stylesheet"><body>
     <header>
         <img src="./images/logo.png" alt="Logo da Spectrum">
         <!-- //FALTA SEPARAR OS ELEMENTOS -->
@@ -25,7 +32,7 @@
 
     <section  class="homepage">
         <article >
-            <h2> Empresa de Restauração em Encanamentos</h2>
+            <h2 class="title"> Empresa de Restauração em Encanamentos</h2>
             <label for="servicosdeEmergencia">
                 <img src="./images/Rectangle 20.png" alt="logo de atendente da emergencia">
                 <p> 24/7 Serviços de emergência</p>
@@ -49,28 +56,75 @@
         </article>
     </section>
     <section class="pageService">
-        <h2>24/7 Serviços de danos em encamento, danos por incêndio, eliminação de bolor e riscos biológicos em Charlotte</h2>
-        <p>Restauramento da Sua Casa e Sua Vida de Volta em um Estado Precário. </p>
-        <article>
-            <img src="./images/Rectangle 24.png" alt="Imagem de um homem com aspirador">
-            <p>Existem muitos locais na sua casa em Aurora onde podem 
-                ocorrer danos causados pela água, desde O subsolo até ao sótão.
-                 Os danos causados podem ocorrer devido a canos e  linhas de aspersão
-                  congeladas, canos enferrujados ou oxidados, transbordamento da sanita,
-                   fugas na sanita, aquecedor de água, frigorífico, transbordamento da máquina
+        <article id="pageServiceTit">
+            <h2 class="title">24/7 Serviços de danos em encamento, danos por incêndio, eliminação de bolor e riscos biológicos em Charlotte</h2>
+            <p>Restauramento da Sua Casa e Sua Vida de Volta em um Estado Precário. </p>
+        </article>
+        <article class="divPageService">
+            <div id="text_1">
+                <img src="./images/Rectangle 24.png" alt="Imagem de um homem com aspirador">
+                <p>Existem muitos locais na sua casa em Aurora onde podem 
+                    ocorrer danos causados pela água, desde O subsolo até ao sótão.
+                    Os danos causados podem ocorrer devido a canos e  linhas de aspersão
+                    congeladas, canos enferrujados ou oxidados, transbordamento da sanita,
+                    fugas na sanita, aquecedor de água, frigorífico, transbordamento da máquina 
                     de lavar louça ou de lavar roupa, danos causados pela água no chão de madeira,
-                     danos causados pela água de canos partidos.
-            </p>
+                    danos causados pela água de canos partidos.
+                </p>
+            </div>
+            <div id="fale_conosco">    
+                
+                <h3>FALE CONOSCO</h3>
+                <p>DISPONÍVEL 24 HORAS, 7 DIAS  POR SEMANA</p>
+                <form action="">
+                    <input id="nameUser" type="text" placeholder="Nome Completo">
+                    <input id="emailUser" type="text"placeholder="Email">
+                    <input  id="phoneUser" type="text" placeholder="Telefone">
+                    <input id="feedback" type="text" placeholder="Como podemos ajudar?">
+                    <button id="buttonSubmit" type="submit">ENVIAR MENSAGEM</button>
+                </form>
+            </div>
         </article>
-        <article>
-            <h3>FALE CONOSCO</h3>
-            <p>DISPONÍVEL 24 HORAS, 7 DIAS  POR SEMANA</p>
-            <input type="text" placeholder="Nome Completo">
-            <input type="text"placeholder="Email">
-            <input type="text" placeholder="Telefone">
-            <input type="text" placeholder="Como podemos ajudar?">
-            <button type="submit">ENVIAR MENSAGEM</button>
-        </article>
+    </section>
+    <section id="cotacao">
+        <h2>VOCÊ PRECISA DE SERVIÇO DE RESTAURAÇÃO?</h2>
+        <button>PEÇA SUA COTAÇÃO</button>
+    </section>
+    <section id="page3">
+        <div>
+            <h2>Saiba mais sobre os  serviços de restauração</h2>
+            <article id="subtpage3">
+                <div></div>
+                <p>Entenda</p>
+                <div></div>
+            </article>
+            
+        </div>
+        <div id="mainpage3">
+            <article class="divsServices" id="divagua">
+                <img src="./images/gota.png" alt="gota de agua">
+                <p>Restauração por danos causados por água</p>
+                <button>Saiba Mais</button>
+            </article>
+            <article class="divsServices" id="divfogo">
+                <img src="./images/fogo.png" alt="gota de agua">
+                <p>Restauração por danos causados por água</p>
+                <button>Saiba Mais</button>
+            </article>
+            <article class="divsServices" id="divtrash">
+                <img src="./images/trash.png" alt="gota de agua">
+                <p>Restauração por danos causados por água</p>
+                <button>Saiba Mais</button>
+            </article>
+            <article class="divsServices" id="divvirus">
+                <img src="./images/virus.png" alt="gota de agua">
+                <p>Restauração por danos causados por água</p>
+                <button>Saiba Mais</button>
+            </article>
+
+            <button>Mais Serviços</button>
+            
+        </div>
     </section>
 </body>
 </html>

@@ -1,0 +1,28 @@
+#cotacao{
+    display: flex;
+    background-color:#2E91E2 ;
+    color: white;
+    justify-content: space-around;
+    height: 330px;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    
+}
+#cotacao h2{
+    width: 560px;
+
+}
+#cotacao button{
+    height: 80px;
+    width: 380px;
+    border-radius: 73px;
+    border: none;
+    font-size: 26.5px;
+    color: #0F147F;
+
+
+
+}
