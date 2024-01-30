@@ -55,4 +55,15 @@
     border-bottom-left-radius: 60px;
 
 }
-
+#divfogo{
+    background-color: #FFEDDD;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+#divtrash{
+    background-color: #F0DDFF;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
